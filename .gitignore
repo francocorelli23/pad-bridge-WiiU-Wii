@@ -1,0 +1,27 @@
+# --- PadBridge build output (rebuild with PadBridge/build.cmd) ---
+PadBridge/bin/
+PadBridge/obj/
+*.pdb
+
+# Self-test results / logs (contain this PC's Bluetooth addresses)
+*.log
+padbridge-selftest.txt
+
+# --- Old WiinUSoft install (third-party binaries, not ours to redistribute) ---
+/WiinUSoft.exe
+/Nintroller.dll
+/ScpControl.dll
+/Hardcodet.Wpf.TaskbarNotification.dll
+/Xbox360Driver.exe
+/unins000.exe
+/unins000.dat
+/ReadMe.txt
+/SCP_Driver/
+
+# --- Editors / OS ---
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
